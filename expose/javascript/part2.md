@@ -21,5 +21,10 @@
      E. We get 4 as true is converted into an integer which becomes 1 so we get 1 + 3 = 4. <br> 
      F. We get 0 as false and null are both 0 as integers. <br>
      G. The string '3undefined' is our answer as undefined is converted into a string and both of the strings are then concatenated. <br>
-     H. We get NaN as undefined does not have an integer value and 3 is an integer.
-14. 
+     H. We get NaN as undefined does not have an integer value and 3 is an integer. <br>
+14.  A. True- 2 is converted to its integer value and 2 is greater than 1. <br>
+     B. False- Both of the values are strings so they are compared character by character and 1 in 12 comes before 2 so gives false. <br> 
+     C. True- Irrespective if the integer 2 becomes a string or the string '2' becomes an integer, they end up being equal / the same. <br> 
+     D. False- The triple = sign checks if they are the same type and one is an integer and the other is a string. <br> 
+     E. False- true is converted into integer so it becomes 1 and 1 is not equal to 2. <br> 
+     F. True- Boolean(2) is true and true == true. <br>
