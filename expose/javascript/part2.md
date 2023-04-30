@@ -9,4 +9,8 @@
 9. Error: `i` is declared using `let` which has a block scope so `i` is not accessible after the `for` block.
 10. The length of the `prices` array will be displayed which is 3. The variable `length` is called in the scope it is defined in and it is not being reassigned at any point. Therefore, there is no error
 11. The function returns the array containing the discounted prices. The first value in the array is 100 * 0.5 = 50. The second value is 200 * 0.5 = 100. The final value is 300 * 0.5 = 150. Therefore the function returns [50, 100, 150]. This is because pushing the values of `discountedPrices` is not reassigning the `const` variable.
-12. 
+12. -A. student.name
+    -B. student['Grad Year']
+    -C. student.greeting()
+    -D. student['Favorite Teacher'].name
+    -E. student.courseLoad[0]
