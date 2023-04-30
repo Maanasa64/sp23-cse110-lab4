@@ -1,1 +1,1 @@
-
+1. `console.log(i)` will print the last value of i after the `for` statement has finished executing and since the condition states `i < prices.length`, the last value of `i` will be equal to `prices.length` which will be 3 here as prices is assigned to [100, 200, 300] which has length 3.
