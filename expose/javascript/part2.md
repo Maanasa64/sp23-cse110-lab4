@@ -9,13 +9,17 @@
 9. Error: `i` is declared using `let` which has a block scope so `i` is not accessible after the `for` block.
 10. The length of the `prices` array will be displayed which is 3. The variable `length` is called in the scope it is defined in and it is not being reassigned at any point. Therefore, there is no error
 11. The function returns the array containing the discounted prices. The first value in the array is 100 * 0.5 = 50. The second value is 200 * 0.5 = 100. The final value is 300 * 0.5 = 150. Therefore the function returns [50, 100, 150]. This is because pushing the values of `discountedPrices` is not reassigning the `const` variable.
-12. A. student.name <br>
-    B. student['Grad Year'] <br> 
-    C. student.greeting() <br> 
-    D. student['Favorite Teacher'].name <br> 
-    E. student.courseLoad[0] <br> 
-13. A.  <br>
-    B.  <br> 
-    C.  <br> 
-    D.  <br> 
-    E.  <br> 
+12.  A. student.name <br>
+     B. student['Grad Year'] <br> 
+     C. student.greeting() <br> 
+     D. student['Favorite Teacher'].name <br> 
+     E. student.courseLoad[0] <br> 
+13.  A. We get 32 as the integer 2 gets concatenated to the string '3'. <br>
+     B. We get 1 as the string gets converted to an integer and 3 - 2 is 1. <br> 
+     C. Null is converted to 0 so we get 3 + 0 = 3. <br> 
+     D. We get the string '3null' as null becomes a string 'null' and the 2 strings are concatenated. <br> 
+     E. We get 4 as true is converted into an integer which becomes 1 so we get 1 + 3 = 4. <br> 
+     F. We get 0 as false and null are both 0 as integers. <br>
+     G. The string '3undefined' is our answer as undefined is converted into a string and both of the strings are then concatenated. <br>
+     H. We get NaN as undefined does not have an integer value and 3 is an integer.
+14. 
