@@ -14,14 +14,14 @@
      C. student.greeting() <br> 
      D. student['Favorite Teacher'].name <br> 
      E. student.courseLoad[0] <br> 
-13.  A. We get 32 as the integer 2 gets concatenated to the string '3'. <br>
-     B. We get 1 as the string gets converted to an integer and 3 - 2 is 1. <br> 
-     C. Null is converted to 0 so we get 3 + 0 = 3. <br> 
-     D. We get the string '3null' as null becomes a string 'null' and the 2 strings are concatenated. <br> 
-     E. We get 4 as true is converted into an integer which becomes 1 so we get 1 + 3 = 4. <br> 
-     F. We get 0 as false and null are both 0 as integers. <br>
-     G. The string '3undefined' is our answer as undefined is converted into a string and both of the strings are then concatenated. <br>
-     H. We get NaN as undefined does not have an integer value and 3 is an integer. <br>
+13.  A. 32- as the integer 2 gets concatenated to the string '3'. <br>
+     B. 1- as the string gets converted to an integer and 3 - 2 is 1. <br> 
+     C. 3- Null is converted to 0 so we get 3 + 0 = 3. <br> 
+     D. '3null'- as null becomes a string 'null' and the 2 strings are concatenated. <br> 
+     E. 4- as true is converted into an integer which becomes 1 so we get 1 + 3 = 4. <br> 
+     F. 0- as false and null are both 0 as integers. <br>
+     G. '3undefined'- as undefined is converted into a string and both of the strings are then concatenated. <br>
+     H. NaN- as undefined does not have an integer value and 3 is an integer. <br>
 14.  A. True- 2 is converted to its integer value and 2 is greater than 1. <br>
      B. False- Both of the values are strings so they are compared character by character and 1 in 12 comes before 2 so gives false. <br> 
      C. True- Irrespective if the integer 2 becomes a string or the string '2' becomes an integer, they end up being equal / the same. <br> 
