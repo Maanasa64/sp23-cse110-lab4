@@ -30,3 +30,5 @@
      F) True- Boolean(2) is true and true == true. <br>
 15. == is a comparison operator which may use type conversions if required but === does not use type conversions and returns false if two different types are being compared.
 16. Answer in part2-question16.js
+17. `modifyArray([1,2,3], doSomething)` evaluates to the array [2,4,6]. This is because the modifyArray function iterates through the array which in this case is [1,2,3]. It applies the callback function on each of the elements of the array and the callback function in this case is `doSomething`, which multiplies the input number with 2. So the for loop in modifyArray basically goes through all the elements in the array and doubles it and pushes it into a new array called `newArr`. In the end, we return `newArr` which will be [2,4,6] as 1 * 2 = 2, 2 * 2 = 4 and 3 * 2 = 6 and all these values are pushed into `newArr`.
+18. Answer in part2-question18.js
