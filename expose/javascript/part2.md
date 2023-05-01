@@ -29,4 +29,4 @@
      E) False- true is converted into integer so it becomes 1 and 1 is not equal to 2. <br> 
      F) True- Boolean(2) is true and true == true. <br>
 15. == is a comparison operator which may use type conversions if required but === does not use type conversions and returns false if two different types are being compared.
-16. 
+16. Answer in part2-question16.js
